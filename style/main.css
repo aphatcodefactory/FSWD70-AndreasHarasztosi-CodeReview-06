@@ -2,3 +2,18 @@ body {
   font-family: sans-serif; }
 
 /*# sourceMappingURL=main.css.map */
+img { 
+   width: 500px ;
+   height: auto;
+}
+
+.no-list {
+	list-style-type: none;
+}
+
+
+@media screen and (max-width: 768px) {
+	img {
+		display: none;
+	}
+}
